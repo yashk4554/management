@@ -1,0 +1,32 @@
+{
+  "name": "com-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "client-install": "npm install --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.2",
+    "node-cache": "^5.1.2",
+    "postcss": "^8.5.6",
+    "react-router-dom": "^7.6.3",
+    "recharts": "^3.1.0",
+    "tailwindcss": "^4.1.11"
+  }
+}
